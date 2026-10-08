@@ -14,12 +14,19 @@ import {
 export const sourceEnum = pgEnum("source", ["mixesdb", "mixcloud"]);
 export const matchStatusEnum = pgEnum("match_status", ["matched", "not_found", "manual"]);
 
+/** A DJ's set list, cached in source order (newest first). */
 export const djs = pgTable("djs", {
   id: serial("id").primaryKey(),
   name: text("name").notNull(),
   slug: text("slug").notNull().unique(),
-  sourceCategory: text("source_category"),
-  imageUrl: text("image_url"),
+  setSourceIds: text("set_source_ids").array().notNull().default([]),
+  fetchedAt: timestamp("fetched_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** Cached search results, keyed by normalized query. */
+export const searches = pgTable("searches", {
+  query: text("query").primaryKey(),
+  setSourceIds: text("set_source_ids").array().notNull().default([]),
   fetchedAt: timestamp("fetched_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
@@ -29,8 +36,8 @@ export const sets = pgTable(
     id: serial("id").primaryKey(),
     source: sourceEnum("source").notNull(),
     sourceId: text("source_id").notNull(),
-    djId: integer("dj_id").references(() => djs.id),
     title: text("title").notNull(),
+    djs: text("djs").array().notNull().default([]), // b2b sets have several
     venue: text("venue"),
     event: text("event"),
     playedAt: text("played_at"), // MixesDB dates can be partial ("2013", "201X")
@@ -38,6 +45,8 @@ export const sets = pgTable(
     isComplete: boolean("is_complete").notNull().default(false),
     sourceUrl: text("source_url").notNull(),
     fetchedAt: timestamp("fetched_at", { withTimezone: true }).notNull().defaultNow(),
+    // Null until the tracklist itself has been fetched (search only gives titles).
+    tracksFetchedAt: timestamp("tracks_fetched_at", { withTimezone: true }),
   },
   (t) => [uniqueIndex("sets_source_idx").on(t.source, t.sourceId)],
 );

@@ -37,7 +37,7 @@ async function api<T>(params: Record<string, string>, schema: z.ZodType<T>): Pro
   const res = await throttle(() =>
     fetch(`${MIXESDB_BASE}/w/api.php?${qs}`, {
       headers: {
-        "User-Agent": `track-id/0.1 (DJ tracklist → Spotify playlist portfolio app${contact ? `; ${contact}` : ""})`,
+        "User-Agent": `track-id/0.1 (DJ tracklist to Spotify playlist portfolio app${contact ? `; ${contact}` : ""})`,
       },
     }),
   );

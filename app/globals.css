@@ -128,3 +128,16 @@
     @apply font-sans;
   }
 }
+/* Brand accent: a green that reads as "on Spotify" and passes AA on both themes. */
+:root {
+  --brand: oklch(0.52 0.15 150);
+  --brand-foreground: oklch(0.985 0 0);
+}
+.dark {
+  --brand: oklch(0.78 0.17 150);
+  --brand-foreground: oklch(0.18 0.03 150);
+}
+@theme inline {
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+}

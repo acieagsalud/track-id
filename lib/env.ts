@@ -19,7 +19,10 @@ export type Env = z.infer<typeof schema>;
 let cached: Env | undefined;
 
 export function env(): Env {
-  cached ??= schema.parse(process.env);
+  // `KEY=` in a .env file means "unset", not "empty string".
+  cached ??= schema.parse(
+    Object.fromEntries(Object.entries(process.env).filter(([, v]) => v !== "")),
+  );
   return cached;
 }
 
