@@ -16,6 +16,17 @@ const TRACKLIST_TTL = 30 * DAY; // tracklists rarely change once written
 export type SetTrack = ParsedTrack & { trackId: number | null };
 export type SetView = Omit<SetDetail, "tracks"> & { tracks: SetTrack[] };
 
+/** Tracks worth looking up on Spotify. */
+export function matchableIds(tracks: SetTrack[]): number[] {
+  return [
+    ...new Set(
+      tracks.flatMap((t) =>
+        t.kind === "track" && !t.isUnreleased && t.trackId != null ? [t.trackId] : [],
+      ),
+    ),
+  ];
+}
+
 const isFresh = (at: Date | null | undefined, ttl: number) =>
   !!at && Date.now() - at.getTime() < ttl;
 

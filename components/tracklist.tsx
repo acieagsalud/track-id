@@ -11,17 +11,6 @@ function TrackStatus({ track }: { track: SetTrack }) {
   return null;
 }
 
-/** Tracks worth looking up on Spotify. */
-export function matchableIds(tracks: SetTrack[]): number[] {
-  return [
-    ...new Set(
-      tracks.flatMap((t) =>
-        t.kind === "track" && !t.isUnreleased && t.trackId != null ? [t.trackId] : [],
-      ),
-    ),
-  ];
-}
-
 function TrackRow({ track }: { track: SetTrack }) {
   const muted = track.kind !== "track";
   return (

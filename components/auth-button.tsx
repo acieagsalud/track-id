@@ -1,4 +1,5 @@
 import { connection } from "next/server";
+import Link from "next/link";
 import { LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { auth, signIn, signOut } from "@/lib/auth";
@@ -39,7 +40,12 @@ export async function AuthButton() {
       }}
       className="flex shrink-0 items-center gap-2"
     >
-      <span className="text-muted-foreground hidden text-sm sm:inline">{session.user.name}</span>
+      <Link
+        href="/playlists"
+        className="text-muted-foreground hover:text-foreground text-sm whitespace-nowrap"
+      >
+        My playlists
+      </Link>
       <Button type="submit" size="icon-sm" variant="ghost" aria-label="Sign out">
         <LogOut aria-hidden />
       </Button>

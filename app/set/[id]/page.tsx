@@ -5,11 +5,13 @@ import { ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { SpotifySignInButton } from "@/components/auth-button";
 import { MatchProvider } from "@/components/match-provider";
-import { Tracklist, TracklistSkeleton, matchableIds } from "@/components/tracklist";
+import { SavePlaylist } from "@/components/save-playlist";
+import { Tracklist, TracklistSkeleton } from "@/components/tracklist";
 import { auth } from "@/lib/auth";
 import { getMatches } from "@/lib/data/match";
+import { lastSavedFor } from "@/lib/data/playlist";
 import { isDemo } from "@/lib/env";
-import { getSet } from "@/lib/data/sets";
+import { getSet, matchableIds } from "@/lib/data/sets";
 import { djHref } from "@/lib/format";
 
 export default function SetPage(props: PageProps<"/set/[id]">) {
@@ -27,9 +29,13 @@ async function SetDetail({ params }: Pick<PageProps<"/set/[id]">, "params">) {
   if (!set) notFound();
 
   const demo = isDemo();
-  const signedIn = !demo && !!(await auth())?.user?.spotifyId;
+  const spotifyId = demo ? undefined : (await auth())?.user?.spotifyId;
+  const signedIn = !!spotifyId;
   const ids = matchableIds(set.tracks);
-  const initial = await getMatches(ids);
+  const [initial, lastSaved] = await Promise.all([
+    getMatches(ids),
+    spotifyId ? lastSavedFor(spotifyId, id) : null,
+  ]);
 
   const playable = set.tracks.filter((t) => t.kind === "track" && !t.isUnreleased).length;
   const missing = set.tracks.filter((t) => t.kind === "unknown" || t.isUnreleased).length;
@@ -95,6 +101,9 @@ async function SetDetail({ params }: Pick<PageProps<"/set/[id]">, "params">) {
           canEdit={signedIn}
           signedIn={signedIn}
         >
+          {(demo || signedIn) && ids.length > 0 && (
+            <SavePlaylist setId={id} lastSavedUrl={lastSaved?.url ?? null} />
+          )}
           <Tracklist tracks={set.tracks} />
         </MatchProvider>
       ) : (

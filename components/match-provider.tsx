@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, use, useCallback, useEffect, useState } from "react";
+import { toast } from "sonner";
 import type { MatchView } from "@/lib/data/match";
 
 type MatchState = {
@@ -47,29 +48,39 @@ export function MatchProvider({
     const todo = trackIds.filter((id) => !initial[id]);
     let cancelled = false;
 
+    async function requestBatch(batch: number[]) {
+      // One retry covers transient failures (e.g. a route recompiling in dev, a Spotify blip).
+      for (let attempt = 0; attempt < 2; attempt++) {
+        const res = await fetch("/api/match", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ trackIds: batch }),
+        }).catch(() => null);
+        if (res?.ok) return ((await res.json()) as { matches: Record<number, MatchView> }).matches;
+        if (res?.status === 401) break; // signed out; retrying won't help
+        await new Promise((r) => setTimeout(r, 1000));
+      }
+      return null;
+    }
+
     (async () => {
+      let failed = 0;
       for (let i = 0; i < todo.length && !cancelled; i += BATCH) {
         const batch = todo.slice(i, i + BATCH);
-        try {
-          const res = await fetch("/api/match", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ trackIds: batch }),
-          });
-          if (!res.ok) throw new Error(String(res.status));
-          const { matches: got } = (await res.json()) as { matches: Record<number, MatchView> };
-          if (!cancelled) setMatches((m) => ({ ...m, ...got }));
-        } catch {
-          // Leave these rows unmatched; a reload retries them.
-        } finally {
-          if (!cancelled)
-            setPending((p) => {
-              const next = new Set(p);
-              batch.forEach((id) => next.delete(id));
-              return next;
-            });
-        }
+        const got = await requestBatch(batch);
+        if (cancelled) return;
+        if (got) setMatches((m) => ({ ...m, ...got }));
+        else failed += batch.length;
+        setPending((p) => {
+          const next = new Set(p);
+          batch.forEach((id) => next.delete(id));
+          return next;
+        });
       }
+      if (failed > 0)
+        toast.error(
+          `Couldn't match ${failed} track${failed === 1 ? "" : "s"}. Reload to try again.`,
+        );
     })();
 
     return () => {
