@@ -3,9 +3,11 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { ArrowRight } from "lucide-react";
 import { SetList, SetListSkeleton } from "@/components/set-card";
+import { SortControl } from "@/components/sort-control";
 import { searchSets } from "@/lib/data/sets";
 import { djHref } from "@/lib/format";
 import { normalize } from "@/lib/normalize";
+import { parseSort, sortSets } from "@/lib/sort";
 
 export const metadata: Metadata = { title: "Search" };
 
@@ -18,11 +20,12 @@ export default function SearchPage(props: PageProps<"/search">) {
 }
 
 async function Results({ searchParams }: Pick<PageProps<"/search">, "searchParams">) {
-  const { q } = await searchParams;
+  const { q, sort: rawSort } = await searchParams;
+  const sort = parseSort(rawSort);
   const query = (Array.isArray(q) ? q[0] : q)?.trim() ?? "";
   if (!query) return <p className="text-muted-foreground">Type a DJ, event or track to search.</p>;
 
-  const sets = await searchSets(query);
+  const sets = sortSets(await searchSets(query), sort);
   // If the query names a DJ who appears in the results, offer their full set list.
   const dj = sets.flatMap((s) => s.djs).find((d) => normalize(d) === normalize(query));
 
@@ -41,6 +44,7 @@ async function Results({ searchParams }: Pick<PageProps<"/search">, "searchParam
           </Link>
         )}
       </div>
+      {sets.length > 1 && <SortControl query={query} current={sort} />}
       {sets.length ? (
         <SetList sets={sets} />
       ) : (
