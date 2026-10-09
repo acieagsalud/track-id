@@ -2,7 +2,7 @@ import "server-only";
 import { and, asc, eq, inArray, sql } from "drizzle-orm";
 import { connection } from "next/server";
 import { db, schema } from "@/lib/db";
-import { DEMO_SETS } from "@/lib/demo";
+import { DEMO_SETS, demoTrackId } from "@/lib/demo";
 import { isDemo } from "@/lib/env";
 import { normalize, trackKey } from "@/lib/normalize";
 import { mixesdb } from "@/lib/sources/mixesdb/client";
@@ -104,7 +104,9 @@ export async function getDjSets(name: string): Promise<SetSummary[]> {
 export async function getSet(sourceId: string): Promise<SetView | null> {
   if (isDemo()) {
     const set = DEMO_SETS.find((s) => s.sourceId === sourceId);
-    return set ? { ...set, tracks: set.tracks.map((t) => ({ ...t, trackId: null })) } : null;
+    return set
+      ? { ...set, tracks: set.tracks.map((t) => ({ ...t, trackId: demoTrackId(t) })) }
+      : null;
   }
   await connection();
 

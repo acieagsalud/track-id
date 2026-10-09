@@ -1,0 +1,200 @@
+{
+  "query": "track:\"The Safety Dance\" artist:\"Men Without Hats\"",
+  "items": [
+    {
+      "id": "5ZpDiWqCG93McsnuHu9uCR",
+      "uri": "spotify:track:5ZpDiWqCG93McsnuHu9uCR",
+      "name": "The Safety Dance",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Rhythm of Youth",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ea60a14a425e4a2023a9c58c"
+          }
+        ]
+      },
+      "duration_ms": 277480,
+      "external_ids": {
+        "isrc": "CAU111016913"
+      }
+    },
+    {
+      "id": "1V9C0pLA8yIVPLgjt8MFt8",
+      "uri": "spotify:track:1V9C0pLA8yIVPLgjt8MFt8",
+      "name": "The Safety Dance",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Rhythm of Youth",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485195e1760f7002d85484e9211c"
+          }
+        ]
+      },
+      "duration_ms": 277480,
+      "external_ids": {
+        "isrc": "CAU111016913"
+      }
+    },
+    {
+      "id": "41MOCUNOgWtaYBFUsGnpZ5",
+      "uri": "spotify:track:41MOCUNOgWtaYBFUsGnpZ5",
+      "name": "The Safety Dance - Video Version",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Rhythm of Youth",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ea60a14a425e4a2023a9c58c"
+          }
+        ]
+      },
+      "duration_ms": 166920,
+      "external_ids": {
+        "isrc": "CAU111016925"
+      }
+    },
+    {
+      "id": "1lQ2AwQ9O6jY1qqQSs4IpR",
+      "uri": "spotify:track:1lQ2AwQ9O6jY1qqQSs4IpR",
+      "name": "The Safety Dance - Video Version",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Rhythm of Youth",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485195e1760f7002d85484e9211c"
+          }
+        ]
+      },
+      "duration_ms": 166920,
+      "external_ids": {
+        "isrc": "CAU111016925"
+      }
+    },
+    {
+      "id": "7vQskjhrpolEnw7Scj8r2X",
+      "uri": "spotify:track:7vQskjhrpolEnw7Scj8r2X",
+      "name": "The Safety Dance - Music From the Motion Picture",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Ghosts Of Girlfriends Past (Music From the Motion Picture) (Edited)",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485106a8cc3ed4f06055a3bf6ce6"
+          }
+        ]
+      },
+      "duration_ms": 272653,
+      "external_ids": {
+        "isrc": "USMC18314274"
+      }
+    },
+    {
+      "id": "3WX2i0dP7ZlwPzAoSe96Kr",
+      "uri": "spotify:track:3WX2i0dP7ZlwPzAoSe96Kr",
+      "name": "The Safety Dance - Club Mix",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Rhythm of Youth",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ea60a14a425e4a2023a9c58c"
+          }
+        ]
+      },
+      "duration_ms": 352506,
+      "external_ids": {
+        "isrc": "CAU111016926"
+      }
+    },
+    {
+      "id": "5uqJX0NMXTQznG6PUoRsFf",
+      "uri": "spotify:track:5uqJX0NMXTQznG6PUoRsFf",
+      "name": "The Safety Dance - Club Mix",
+      "artists": [
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "Rhythm of Youth",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485195e1760f7002d85484e9211c"
+          }
+        ]
+      },
+      "duration_ms": 350506,
+      "external_ids": {
+        "isrc": "CAU111016926"
+      }
+    },
+    {
+      "id": "58bBrD3SfnDEjw6ZkgdClu",
+      "uri": "spotify:track:58bBrD3SfnDEjw6ZkgdClu",
+      "name": "The Safety Dance",
+      "artists": [
+        {
+          "name": "George Acosta"
+        },
+        {
+          "name": "Men Without Hats"
+        }
+      ],
+      "album": {
+        "name": "presents SOGOOD Music Miami (Best of 2015)",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f7ba14fbab7719a48fedd61c"
+          }
+        ]
+      },
+      "duration_ms": 363330,
+      "external_ids": {
+        "isrc": "NLE711232201"
+      }
+    }
+  ]
+}

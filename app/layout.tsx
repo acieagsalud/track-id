@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import { Suspense } from "react";
 import { AudioLines } from "lucide-react";
+import { AuthButton } from "@/components/auth-button";
 import { SearchBar } from "@/components/search-bar";
+import { Toaster } from "@/components/ui/sonner";
 import { isDemo } from "@/lib/env";
 import "./globals.css";
 
@@ -40,6 +43,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               track-id
             </Link>
             <SearchBar className="ml-auto w-full max-w-xs" size="sm" />
+            <Suspense fallback={null}>
+              <AuthButton />
+            </Suspense>
           </div>
         </header>
         <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8">{children}</main>
@@ -51,6 +57,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           , a community wiki. track-id is a portfolio project and is not affiliated with MixesDB or
           Spotify.
         </footer>
+        <Toaster />
       </body>
     </html>
   );

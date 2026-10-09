@@ -87,8 +87,9 @@ export const spotifyMatches = pgTable("spotify_matches", {
   spotifyUri: text("spotify_uri"),
   confidence: real("confidence"),
   status: matchStatusEnum("status").notNull(),
+  spotifyName: text("spotify_name"),
+  spotifyArtists: text("spotify_artists"),
   albumArtUrl: text("album_art_url"),
-  previewUrl: text("preview_url"),
   matchedAt: timestamp("matched_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
@@ -103,4 +104,13 @@ export const userPlaylists = pgTable("user_playlists", {
   trackCount: integer("track_count").notNull(),
   skippedCount: integer("skipped_count").notNull(),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** OAuth tokens per Spotify user, AES-GCM encrypted so a DB leak doesn't leak account access. */
+export const spotifyAccounts = pgTable("spotify_accounts", {
+  spotifyUserId: text("spotify_user_id").primaryKey(),
+  accessTokenEnc: text("access_token_enc").notNull(),
+  refreshTokenEnc: text("refresh_token_enc").notNull(),
+  expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 });

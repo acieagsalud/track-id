@@ -1,3 +1,4 @@
+import { MatchBadge } from "@/components/match-badge";
 import { Badge } from "@/components/ui/badge";
 import type { SetTrack } from "@/lib/data/sets";
 import { formatCue } from "@/lib/format";
@@ -6,7 +7,19 @@ import { cn } from "@/lib/utils";
 function TrackStatus({ track }: { track: SetTrack }) {
   if (track.kind === "unknown") return <Badge variant="outline">Unidentified</Badge>;
   if (track.isUnreleased) return <Badge variant="secondary">Unreleased ID</Badge>;
+  if (track.trackId != null) return <MatchBadge trackId={track.trackId} />;
   return null;
+}
+
+/** Tracks worth looking up on Spotify. */
+export function matchableIds(tracks: SetTrack[]): number[] {
+  return [
+    ...new Set(
+      tracks.flatMap((t) =>
+        t.kind === "track" && !t.isUnreleased && t.trackId != null ? [t.trackId] : [],
+      ),
+    ),
+  ];
 }
 
 function TrackRow({ track }: { track: SetTrack }) {

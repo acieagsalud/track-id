@@ -1,0 +1,137 @@
+{
+  "query": "track:\"Tuk Tuk\" artist:\"Solomun\"",
+  "items": [
+    {
+      "id": "63mBIczqBJOxSs3y5JutUR",
+      "uri": "spotify:track:63mBIczqBJOxSs3y5JutUR",
+      "name": "Tuk Tuk (feat. ÄTNA)",
+      "artists": [
+        {
+          "name": "Solomun"
+        },
+        {
+          "name": "Inéz"
+        },
+        {
+          "name": "ÄTNA"
+        }
+      ],
+      "album": {
+        "name": "Nobody Is Not Loved",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851b5869974a824f8f9a770782f"
+          }
+        ]
+      },
+      "duration_ms": 253825,
+      "external_ids": {
+        "isrc": "DELV42000791"
+      }
+    },
+    {
+      "id": "2Sxti9gKyS8zxdI0yV3wvC",
+      "uri": "spotify:track:2Sxti9gKyS8zxdI0yV3wvC",
+      "name": "Tuk Tuk - feat. ÄTNA",
+      "artists": [
+        {
+          "name": "Solomun"
+        },
+        {
+          "name": "ÄTNA"
+        },
+        {
+          "name": "Inéz"
+        }
+      ],
+      "album": {
+        "name": "Tuk Tuk (feat. ÄTNA)",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485157b75a0de6e22125df126eda"
+          }
+        ]
+      },
+      "duration_ms": 253825,
+      "external_ids": {
+        "isrc": "DELV42000791"
+      }
+    },
+    {
+      "id": "3P27beezwNQMI2dWHYwja8",
+      "uri": "spotify:track:3P27beezwNQMI2dWHYwja8",
+      "name": "Tuk Tuk - feat. ÄTNA - Jackmaster & Skream Remix",
+      "artists": [
+        {
+          "name": "Solomun"
+        },
+        {
+          "name": "Inéz"
+        },
+        {
+          "name": "ÄTNA"
+        },
+        {
+          "name": "Jackmaster"
+        },
+        {
+          "name": "Skream"
+        }
+      ],
+      "album": {
+        "name": "Nobody Is Not Loved, Remixes, Pt. 5",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485106e684760bd4db55e724d907"
+          }
+        ]
+      },
+      "duration_ms": 475500,
+      "external_ids": {
+        "isrc": "DELV42200665"
+      }
+    },
+    {
+      "id": "1Kdw6pzO8gR3cbxRT3YZHN",
+      "uri": "spotify:track:1Kdw6pzO8gR3cbxRT3YZHN",
+      "name": "Tuk Tuk - feat. ÄTNA - Jackmaster & Skream Remix",
+      "artists": [
+        {
+          "name": "Solomun"
+        },
+        {
+          "name": "Inéz"
+        },
+        {
+          "name": "ÄTNA"
+        },
+        {
+          "name": "Jackmaster"
+        },
+        {
+          "name": "Skream"
+        }
+      ],
+      "album": {
+        "name": "Nobody Is Not Loved (Remixed)",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851a1273b0ec3ff99ac4b8e536a"
+          }
+        ]
+      },
+      "duration_ms": 475500,
+      "external_ids": {
+        "isrc": "DELV42200665"
+      }
+    }
+  ]
+}

@@ -3,7 +3,12 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Tracklist, TracklistSkeleton } from "@/components/tracklist";
+import { SpotifySignInButton } from "@/components/auth-button";
+import { MatchProvider } from "@/components/match-provider";
+import { Tracklist, TracklistSkeleton, matchableIds } from "@/components/tracklist";
+import { auth } from "@/lib/auth";
+import { getMatches } from "@/lib/data/match";
+import { isDemo } from "@/lib/env";
 import { getSet } from "@/lib/data/sets";
 import { djHref } from "@/lib/format";
 
@@ -20,6 +25,11 @@ async function SetDetail({ params }: Pick<PageProps<"/set/[id]">, "params">) {
   if (!/^\d+$/.test(id)) notFound();
   const set = await getSet(id);
   if (!set) notFound();
+
+  const demo = isDemo();
+  const signedIn = !demo && !!(await auth())?.user?.spotifyId;
+  const ids = matchableIds(set.tracks);
+  const initial = await getMatches(ids);
 
   const playable = set.tracks.filter((t) => t.kind === "track" && !t.isUnreleased).length;
   const missing = set.tracks.filter((t) => t.kind === "unknown" || t.isUnreleased).length;
@@ -68,8 +78,25 @@ async function SetDetail({ params }: Pick<PageProps<"/set/[id]">, "params">) {
         </p>
       </header>
 
+      {!demo && !signedIn && ids.some((id) => !initial[id]) && (
+        <div className="bg-muted/40 flex flex-wrap items-center justify-between gap-3 rounded-lg border p-4">
+          <p className="text-sm">
+            Sign in with Spotify to match these tracks and save the set as a playlist.
+          </p>
+          <SpotifySignInButton redirectTo={`/set/${id}`} />
+        </div>
+      )}
+
       {set.tracks.length ? (
-        <Tracklist tracks={set.tracks} />
+        <MatchProvider
+          trackIds={ids}
+          initial={initial}
+          canMatch={demo || signedIn}
+          canEdit={signedIn}
+          signedIn={signedIn}
+        >
+          <Tracklist tracks={set.tracks} />
+        </MatchProvider>
       ) : (
         <p className="text-muted-foreground">
           MixesDB doesn&apos;t have a tracklist for this set yet.

@@ -1,0 +1,29 @@
+{
+  "query": "track:\"Bessabia\" artist:\"Angelov\"",
+  "items": [
+    {
+      "id": "76QqgROqfk7awvPh7RoatW",
+      "uri": "spotify:track:76QqgROqfk7awvPh7RoatW",
+      "name": "Bessabia",
+      "artists": [
+        {
+          "name": "Angelov"
+        }
+      ],
+      "album": {
+        "name": "Versaro EP",
+        "images": [
+          {
+            "height": 64,
+            "width": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f8702fe62d22ae917c4a74cd"
+          }
+        ]
+      },
+      "duration_ms": 379287,
+      "external_ids": {
+        "isrc": "DEDH72000026"
+      }
+    }
+  ]
+}

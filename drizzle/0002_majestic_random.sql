@@ -1,0 +1,1 @@
+ALTER TABLE "spotify_matches" DROP COLUMN "preview_url";

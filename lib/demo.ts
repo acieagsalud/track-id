@@ -4,7 +4,10 @@ import {
   parseSetTitle,
   parseTracklist,
 } from "@/lib/sources/mixesdb/parse";
-import type { SetDetail } from "@/lib/sources/types";
+import type { MatchView } from "@/lib/data/match";
+import { trackKey } from "@/lib/normalize";
+import type { ParsedTrack, SetDetail } from "@/lib/sources/types";
+import demoMatchesJson from "@/lib/demo-matches.json";
 import p113019 from "@/lib/sources/mixesdb/__fixtures__/page-113019.json";
 import p143558 from "@/lib/sources/mixesdb/__fixtures__/page-143558.json";
 import p264926 from "@/lib/sources/mixesdb/__fixtures__/page-264926.json";
@@ -27,3 +30,33 @@ export const DEMO_SETS: SetDetail[] = ([p264926, p113019, p770688, p429384, p143
     tracks: parseTracklist(p.wikitext),
   }),
 );
+
+/** Stable ids for demo tracks: index into the sorted list of unique track keys. */
+export const DEMO_TRACK_KEYS = [
+  ...new Set(
+    DEMO_SETS.flatMap((s) =>
+      s.tracks.flatMap((t) =>
+        t.kind === "track" && t.artist && t.title ? [trackKey(t.artist, t.title, t.mixName)] : [],
+      ),
+    ),
+  ),
+].sort();
+
+const demoIdByKey = new Map(DEMO_TRACK_KEYS.map((k, i) => [k, i + 1]));
+
+export function demoTrackId(t: ParsedTrack): number | null {
+  return t.kind === "track" && t.artist && t.title
+    ? (demoIdByKey.get(trackKey(t.artist, t.title, t.mixName)) ?? null)
+    : null;
+}
+
+/** Spotify matches recorded by `npm run demo:record`, keyed by track key. */
+export function demoMatches(trackIds: number[]): Record<number, MatchView> {
+  const recorded = demoMatchesJson as Record<string, MatchView>;
+  return Object.fromEntries(
+    trackIds.flatMap((id) => {
+      const m = recorded[DEMO_TRACK_KEYS[id - 1]];
+      return m ? [[id, m]] : [];
+    }),
+  );
+}
