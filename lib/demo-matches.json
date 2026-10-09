@@ -1,1 +1,978 @@
-{}
+{
+  "acid waves|pale blue|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "adriatique|motions|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6gOMhPmLlrY9QNmgKzer0i",
+    "spotifyName": "Motions",
+    "spotifyArtists": "Adriatique",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851333d62e5efb41e2ba86a740d",
+    "confidence": 1
+  },
+  "alesso and sacha|destiny|hills remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4xBPAr5iLmeNK2NvOOP3JQ",
+    "spotifyName": "Destiny - HILLS Remix",
+    "spotifyArtists": "Alesso, SACHA, HILLS",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b58e87307952fe0c781c72c1",
+    "confidence": 1
+  },
+  "alexander delanois|deep down|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:50oRDnFt2gwqVOsiYv6vG4",
+    "spotifyName": "Deep Down",
+    "spotifyArtists": "Alexander Delanois",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851925399db8bdab93d7e99bd40",
+    "confidence": 1
+  },
+  "allan shotter|cassini|solomun remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1ujX1j8JQVMOLpUIm64zZf",
+    "spotifyName": "Cassini - Solomun Remix",
+    "spotifyArtists": "Allan Shotter, Solomun",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048517c58d85f62ea4e5af2fa5fff",
+    "confidence": 1
+  },
+  "angelov|bessabia|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:76QqgROqfk7awvPh7RoatW",
+    "spotifyName": "Bessabia",
+    "spotifyArtists": "Angelov",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851f8702fe62d22ae917c4a74cd",
+    "confidence": 1
+  },
+  "animal trainer|charly|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0d6Lx8xXk5pgPrXdGTilwB",
+    "spotifyName": "Charly",
+    "spotifyArtists": "Animal Trainer",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485184439ae2e579607f35e3ea8e",
+    "confidence": 1
+  },
+  "anotr feat 54 ultra|talk to you|dave summer edit": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "antonelli electr|i don t want nobody else but you|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "aura it and lexa hill feat yadilowell|linda italiana|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:19kpya1S4OpS8im22z4rG6",
+    "spotifyName": "Linda Italiana",
+    "spotifyArtists": "Aüra, Lexa Hill, Yadilowell",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048518a1318fa90e013b2824620c8",
+    "confidence": 0.88
+  },
+  "bella backe|voodoo jelly|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5rIXx1kZviuKfLNvsGgPCj",
+    "spotifyName": "Voodoo Jelly",
+    "spotifyArtists": "Bella Backe",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851d2c7a18bf49a4e46ab47ec6f",
+    "confidence": 0.94
+  },
+  "bob sinclar and besh|tequila and ibiza|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:19txbPBxw2UAX5OaFattUc",
+    "spotifyName": "Tequila & Ibiza",
+    "spotifyArtists": "Bob Sinclar, BESH.",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851d9f69f1be85749f61a529f7f",
+    "confidence": 1
+  },
+  "boy harsher|la|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4O2DCyhtMkzOXe9RaW024f",
+    "spotifyName": "LA",
+    "spotifyArtists": "Boy Harsher",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851e392aa1a60a7e0263aa38847",
+    "confidence": 1
+  },
+  "bradeazy and ownboss|louboutin|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4gB2PHBDWqjZV2ynWLqME8",
+    "spotifyName": "Louboutin",
+    "spotifyArtists": "bradeazy, Öwnboss",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851ac5594fd80cfcd3e2f956f3e",
+    "confidence": 1
+  },
+  "cheyenne giles|rave therapy|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6OTlf4RDANbSRFimfKzTVU",
+    "spotifyName": "Rave Therapy",
+    "spotifyArtists": "Cheyenne Giles",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048511ed864f4e8ec9e484a6ccec2",
+    "confidence": 1
+  },
+  "chris lorenzo and amo um|hots 4 u|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5nMrR3Ed99WcQ4Vv0wy8Bf",
+    "spotifyName": "HOTS 4 U",
+    "spotifyArtists": "Chris Lorenzo, aMo (um)",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048517ab2e6d2799edb8a16a226c3",
+    "confidence": 1
+  },
+  "clark and pudell|zashu|viper strike beats and bass edit": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6XqGThrMwtZvVQK7Izx8tT",
+    "spotifyName": "Zashu - Viper Strike Beats & Bass Edit",
+    "spotifyArtists": "Clark & Pudell",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851fd01a1010814ec4136ce9d90",
+    "confidence": 1
+  },
+  "club de combat|all the single ladies|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2CV2r3P9C2xmjXsmWyrGc9",
+    "spotifyName": "All The Single Ladies - Extended Mix",
+    "spotifyArtists": "Clüb De Combat",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048514d1c5adc4913a8f720c57b29",
+    "confidence": 1
+  },
+  "david august|instant harmoney|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "david august|on my mind|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "david bowie|let s dance|simone remix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "dean turnley|actin tough|dave summer edit": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "deomid|shift friction|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:18mUZBBrR2uNs1aULqezpS",
+    "spotifyName": "Shift Friction",
+    "spotifyArtists": "Deomid",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851cd98e75bd3e9857129e3d10b",
+    "confidence": 0.94
+  },
+  "dimitri vegas and like mike and marlon hoffstadt and dj konik|makina time|joel corry remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1RCJkxU1xarzDSG7UriX9O",
+    "spotifyName": "Makina Time - Joel Corry Remix",
+    "spotifyArtists": "Dimitri Vegas & Like Mike, Dj Konik, Dimitri Vegas, Joel Corry, Marlon Hoffstadt",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048514993bc551be8d76f76845791",
+    "confidence": 1
+  },
+  "disciples|groovin|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:23qCezcrWon6acl0CiLqoK",
+    "spotifyName": "Groovin'",
+    "spotifyArtists": "Disciples",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485172ec3e3e1b31fab36c3d4e34",
+    "confidence": 0.94
+  },
+  "dj phono|knarhcsleuk mi ttinhcsfua hcon hci|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "dom dolla and tiga|don t worry baby|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0uFffwji3muqn5MEe7hiYw",
+    "spotifyName": "Don't Worry Baby",
+    "spotifyArtists": "Dom Dolla, Tiga",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851e281321c331bfa69c2401e9a",
+    "confidence": 1
+  },
+  "eden burns|big beat manifesto|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4O6aFTVJScCFm8e2lQtIvJ",
+    "spotifyName": "Big Beat Manifesto",
+    "spotifyArtists": "Eden Burns",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048510ed596d3fe5d726188790e7d",
+    "confidence": 1
+  },
+  "franc fala and andrea oliva and bankr|looney tunes|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0vdC7tlYT1WdAMDsfyVW6V",
+    "spotifyName": "Looney Tunes - Extended Mix",
+    "spotifyArtists": "Franc Fala, Andrea Oliva, bankr",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485186db475b1841d04f4c791ac3",
+    "confidence": 1
+  },
+  "francis mercier and wyclef jean and kah lo|take me home|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:3McAxogdq7Hu0JCGTSE3EB",
+    "spotifyName": "Take Me Home",
+    "spotifyArtists": "Francis Mercier, Wyclef Jean, Kah-Lo",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851cee82728f4ea3a3566f64108",
+    "confidence": 1
+  },
+  "glass candy|soft boundaries|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "god s favourites|soul sister|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0vyqbztrJ0tbRnjO2PyAf0",
+    "spotifyName": "Soul Sister - Radio Mix",
+    "spotifyArtists": "GOD'S FAVOURITES",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048516b69e6a9ffe59b8ea552b092",
+    "confidence": 0.94
+  },
+  "goldfish und der dulz|ding dong|patrick chardronnet mix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "green velvet vs meduza and genesi and essentia|la la land|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5hYSsLVQ6Isk6YZrnsBj4E",
+    "spotifyName": "La La Land",
+    "spotifyArtists": "Green Velvet, MEDUZA, GENESI, ESSENTIA",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048510ae8f6f5fa542174ba75386c",
+    "confidence": 1
+  },
+  "gryffin and bunt and inez|world away|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:3GfBcRN3VaIa52Q6MsavH0",
+    "spotifyName": "World Away",
+    "spotifyArtists": "Gryffin, BUNT., Inéz",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
+    "confidence": 1
+  },
+  "h o s h feat ost and kjex|woohoo|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1Obdj4uLPjDEULBMHpXRDX",
+    "spotifyName": "Woohoo",
+    "spotifyArtists": "HOSH, Ost & Kjex",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485113ac40127f73fd265b72dece",
+    "confidence": 0.88
+  },
+  "human machine|africa|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:37pEHBt9G5pMAfYIRs3Dpy",
+    "spotifyName": "Africa",
+    "spotifyArtists": "Human Machine",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851f6d6b88c6a8a94d782f336a7",
+    "confidence": 1
+  },
+  "hunter game|touch me|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7kcpZ9AjJJJA5toahLxK8F",
+    "spotifyName": "Touch Me",
+    "spotifyArtists": "Hunter/Game",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b39d55f5e9d696a44507fce3",
+    "confidence": 1
+  },
+  "innellea|electricity|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7uFegDWRXXgZ42twbwQNVo",
+    "spotifyName": "Electricity",
+    "spotifyArtists": "Innellea",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851cbe49377f2bd00f15a74156a",
+    "confidence": 1
+  },
+  "james hype and tita lau|action|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4fMCQYd5Xi0MrIQq2CCkqL",
+    "spotifyName": "Action",
+    "spotifyArtists": "James Hype, Tita Lau",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048513ac93ab1e1239b0ac8990dba",
+    "confidence": 0.94
+  },
+  "jamie kidd|13th verse|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4eNb1qMyJkHIDpI8bqJGAy",
+    "spotifyName": "13th Verse - Original Mix",
+    "spotifyArtists": "Jamie Kidd",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851cca05d33dce76fc1376502da",
+    "confidence": 0.94
+  },
+  "johannes brecht and christian prommer|voix grave|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6YWkBrV6sDnqpol1dt2LdY",
+    "spotifyName": "Voix Grave",
+    "spotifyArtists": "Johannes Brecht, Christian Prommer",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048514a0a5880142f0617566830b8",
+    "confidence": 1
+  },
+  "john summit feat cloves|focus|alok remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2DOUbOh1k3n9Ek6Eur61K4",
+    "spotifyName": "Focus (feat. CLOVES) - Alok Remix",
+    "spotifyArtists": "John Summit, CLOVES, Alok",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048514573546db52e73ac03c43c54",
+    "confidence": 1
+  },
+  "joshwa|out of my mind|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2FFwFlkKjKBSCdVpPf38Gj",
+    "spotifyName": "Out of My Mind",
+    "spotifyArtists": "Joshwa",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851d71339f225018412c388476d",
+    "confidence": 1
+  },
+  "juste and jaxstyle and jon|turn the lights off|hills and dansyn remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1iI7EM2Ge0R3pMHg0ppLo7",
+    "spotifyName": "Turn The Lights Off (with Jaxstyle) - HILLS & Dansyn Remix",
+    "spotifyArtists": "Justė, Jon, Jaxstyle, HILLS, Dansyn",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048511197e10f7902784770ac7079",
+    "confidence": 1
+  },
+  "kate bush|army dreamers|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6OmdWLjlx4BIDGEO8BZlqH",
+    "spotifyName": "Army Dreamers",
+    "spotifyArtists": "Kate Bush",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851d2a4d346141bb94f50a4d7ab",
+    "confidence": 1
+  },
+  "kate bush|night scented stock|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4p2bgcyJGC0xUMrHgJrYTc",
+    "spotifyName": "Night Scented Stock",
+    "spotifyArtists": "Kate Bush",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851d2a4d346141bb94f50a4d7ab",
+    "confidence": 1
+  },
+  "kelley polar|entropy reigns in the celestial city|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4jc5rnZdsCcRwHMd8QllDK",
+    "spotifyName": "Entropy Reigns (in the Celestial City)",
+    "spotifyArtists": "Kelley Polar",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851cd88321f53c0b4d9451ce0c9",
+    "confidence": 1
+  },
+  "kettama|comes and goes|dom dolla remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:3vVapQ0417yRGO66kWT2V3",
+    "spotifyName": "Comes and Goes - Dom Dolla Remix",
+    "spotifyArtists": "KETTAMA, Dom Dolla",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048516a432f681cfdaee97b9cff4d",
+    "confidence": 1
+  },
+  "kid creme|austin s groove|gene ferris windy city re rub dub": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7dB0WqxkPW6qvAjNtlzZ2A",
+    "spotifyName": "Austin's Groove - Gene Farris 'Windy City' Re-Rub Dub",
+    "spotifyArtists": "Kid Crème, Gene Farris",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b6ea598e38a8d289d5d84059",
+    "confidence": 0.97
+  },
+  "klingande|only god can save our souls|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "koen groeneveld|lost loves|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:423BSA2RuQaixTm9QtNIA1",
+    "spotifyName": "Lost Loves - Extended Mix",
+    "spotifyArtists": "Koen Groeneveld",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c3d9f2e3d7f1a2f75928d9fe",
+    "confidence": 0.94
+  },
+  "koffee|toast|yungnese x jaminn remix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "lady gaga feat colby o donis|just dance|acraze remix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "laherte|sing it back|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6emZmP4oGTMxFveqpp67vM",
+    "spotifyName": "Sing It Back",
+    "spotifyArtists": "Laherte",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851defd263ca55d4cd92103f644",
+    "confidence": 1
+  },
+  "lovra and domenico rondinelli|papi|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2jiDDOAnHUcF9OeXzUbpPv",
+    "spotifyName": "PAPI",
+    "spotifyArtists": "LOVRA, Domenico Rondinelli",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851f8a34c17fffac97a10d0327d",
+    "confidence": 1
+  },
+  "lovra and foxel|milkshake b|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "lovra and katy alex|tell me|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7skdREPq445Rdr87KSTaUW",
+    "spotifyName": "Tell Me",
+    "spotifyArtists": "LOVRA, Katy Alex",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048516be074c3001157f5ce4f4b3f",
+    "confidence": 1
+  },
+  "lovra and relaxjosh and giuliano ca|forward reverse|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "lovra and wolves arg|my gang|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:45bflksNIges7mhBVvYi47",
+    "spotifyName": "My Gang",
+    "spotifyArtists": "LOVRA, Wolves (Arg)",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048518837fe34f5e5a1c5c6d69a86",
+    "confidence": 1
+  },
+  "lovra|get close|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7mVuqGo4TVJNKFroaneLA6",
+    "spotifyName": "Get Close",
+    "spotifyArtists": "LOVRA",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851bc06e194900e7900dab9e21e",
+    "confidence": 0.94
+  },
+  "matroda|winning prize|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7HQYTG23MOdbnRMRGsKxTe",
+    "spotifyName": "Winning Prize",
+    "spotifyArtists": "Matroda",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851a5017d2562fddd043ee0e619",
+    "confidence": 1
+  },
+  "max styler feat ad apt|one more|solomun remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7hOwCb0vcnpNRBQUoI5smE",
+    "spotifyName": "One More (feat. Ad-Apt) - Solomun Remix",
+    "spotifyArtists": "Max Styler, Ad-Apt, Solomun",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048510d1c7c9065269b0ab8c9d0ba",
+    "confidence": 1
+  },
+  "men without hats|the safety dance|extended club mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:3WX2i0dP7ZlwPzAoSe96Kr",
+    "spotifyName": "The Safety Dance - Club Mix",
+    "spotifyArtists": "Men Without Hats",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851ea60a14a425e4a2023a9c58c",
+    "confidence": 0.98
+  },
+  "modular project|electronic disco|not so boring cantor rework": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1lY2oGTVQWoNGkyFn9tebQ",
+    "spotifyName": "Electronic Disco - Not So Boring Cantor Rework",
+    "spotifyArtists": "Modular Project, Cantor",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b334d25ee16b57658b53f323",
+    "confidence": 1
+  },
+  "moguai and ej 3000 and fast sync|how do we get the party pumpin|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "monkey safari|boris|guy mantzur remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7DTZxtILZ6Gh4hyNSiwX3f",
+    "spotifyName": "Boris - Guy Mantzur Remix",
+    "spotifyArtists": "Monkey Safari, Guy Mantzur",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048518af4bd38236239d1ab381405",
+    "confidence": 1
+  },
+  "my favorite robot|forest fires|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5kcXJVJfx3bFWafpnG7jcX",
+    "spotifyName": "Forest Fires",
+    "spotifyArtists": "My Favorite Robot",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b67e32bb2bf65b409fcd0be4",
+    "confidence": 1
+  },
+  "nexboy and cha e 13|calabria|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4nDeHMtJFejtTEbeIxf2Ch",
+    "spotifyName": "Calabria",
+    "spotifyArtists": "NEXBOY, CHA$E 13",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048516720b06554e8052b198c2fe8",
+    "confidence": 1
+  },
+  "noah loco and lovra|on my mind|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2WTwPjXsbIhDYoT9JPbU0p",
+    "spotifyName": "On My Mind",
+    "spotifyArtists": "LOVRA, Noah Loco",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048512e44b805b7f075e6a233cac6",
+    "confidence": 1
+  },
+  "nobody serious|no sir|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6ZsG0UvN7vG5thRadvDw6W",
+    "spotifyName": "No Sir",
+    "spotifyArtists": "Nobody Serious",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048513d973450d563cd3ced4d4d18",
+    "confidence": 0.94
+  },
+  "ntfo and karmon|nobody else|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5e9jmP3gAdkZmkYtFkvdgN",
+    "spotifyName": "Nobody Else",
+    "spotifyArtists": "NTFO, Karmon",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851fab87e30cad74d2c810d7098",
+    "confidence": 1
+  },
+  "odd mob and omnom pres hyperbeam|coming up|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "outkast|ms jackson|n2n and avilo edit": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "ownboss and stadiumx|to the beat|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1BfhZT1HacQ1l4V4uXFxCq",
+    "spotifyName": "To The Beat",
+    "spotifyArtists": "Öwnboss, Stadiumx",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b12987f671229fcf63f65f3f",
+    "confidence": 0.94
+  },
+  "parple|believe|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "patrick podage and nikola kotevski|fishermaetteli|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:293Q2OITQclr8V2nIHDaC5",
+    "spotifyName": "Fishermaetteli",
+    "spotifyArtists": "Patrick Podage, Nikola Kotevski",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048514cf4928bfcdaecddc2f6ca73",
+    "confidence": 1
+  },
+  "pessto|that s what my life s like|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:68DUtyuVMMmMP8xhGRo60Y",
+    "spotifyName": "That's What My Life's Like",
+    "spotifyArtists": "Pessto",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048511bd8325d6a709b0fbfd0527e",
+    "confidence": 1
+  },
+  "petja virikko|bdy|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2raTDKYdjSuBLdKp7rZSXD",
+    "spotifyName": "BDY",
+    "spotifyArtists": "Petja Virikko",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485124e98fc2c5b8bf017fbf8e31",
+    "confidence": 1
+  },
+  "piem and slm and dj technics and kotton the cutie|activated i just wanna|extended mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:26mV6U2utvBqmqQizY4w5T",
+    "spotifyName": "Activated (I Just Wanna)",
+    "spotifyArtists": "Piem, SLM, DJ Technics, Kotton The Cutie",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851182cb9b0e401cb87199b5c1a",
+    "confidence": 0.94
+  },
+  "poni hoax|my own private vietnam|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:28jOIFvKpMb4LXG2QhGCua",
+    "spotifyName": "My Own Private Vietnam",
+    "spotifyArtists": "Poni Hoax",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485152792ea14a31ca8a18b8ee4a",
+    "confidence": 1
+  },
+  "quarion|octagon|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0AXlEszTzew35CAgHIkpYC",
+    "spotifyName": "Octagon",
+    "spotifyArtists": "Quarion",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048516740b7990f3e7acdf28fdfc4",
+    "confidence": 1
+  },
+  "rafael cerato and artbat|uplift|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7vI7cuQlO1ShbiW3ZYFgV0",
+    "spotifyName": "Uplift",
+    "spotifyArtists": "Rafael Cerato, ARTBAT",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851f6780a679ce57f4915198dc9",
+    "confidence": 1
+  },
+  "rafael cerato|distant lands|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4oEDSrmmRKko3ljriYM5tt",
+    "spotifyName": "Distant Lands",
+    "spotifyArtists": "Rafael Cerato",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851a177acc9b4ea6436e698fc3b",
+    "confidence": 1
+  },
+  "robin schulz and dennis lloyd|young right now|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6Y4tAJ7qK8pqD1grVgooMz",
+    "spotifyName": "Young Right Now",
+    "spotifyArtists": "Robin Schulz, Dennis Lloyd",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851902c62d2318fc543ef99591b",
+    "confidence": 1
+  },
+  "robin schulz and fil bo riva|killer queen|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:77vcAgS82mNdEcWD0PPXmT",
+    "spotifyName": "Killer Queen",
+    "spotifyArtists": "Robin Schulz, FIL BO RIVA",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851efd0f3c91b0988766019fd41",
+    "confidence": 1
+  },
+  "robin schulz and imanbek|push it|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "robin schulz and marten hørger|arizona|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4Nl32YRv6I3SenFccnCXN2",
+    "spotifyName": "Arizona",
+    "spotifyArtists": "Robin Schulz, Marten Hørger",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c3c826f468435f09736ad6ea",
+    "confidence": 1
+  },
+  "robin schulz feat ilsey juber|headlights|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0tDC3KJPPu5eonGTtCURpq",
+    "spotifyName": "Headlights (feat. Ilsey)",
+    "spotifyArtists": "Robin Schulz, Ilsey",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485170dd2ebd8a41b3cab44f0c7b",
+    "confidence": 0.83
+  },
+  "robin schulz feat james blunt|ok|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:32y9LSjv2Q49T3NnkETXCm",
+    "spotifyName": "OK",
+    "spotifyArtists": "Robin Schulz, James Blunt",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c874b3eb6242b8d632ac2305",
+    "confidence": 1
+  },
+  "robin schulz feat jasmine thompson|sun goes down|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0CI422U7nhDLnk43s1BS1F",
+    "spotifyName": "Sun Goes Down (feat. Jasmine Thompson) - Radio Mix",
+    "spotifyArtists": "Robin Schulz, Jasmine Thompson",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485158bc4150f6e6c590e8e6d136",
+    "confidence": 0.94
+  },
+  "robin schulz feat kiddo|all we got|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1FP9s72rDYty6mfoOEYKnE",
+    "spotifyName": "All We Got (feat. KIDDO)",
+    "spotifyArtists": "Robin Schulz, KIDDO",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851fdffffe1645c0a8e088c3f44",
+    "confidence": 1
+  },
+  "robin schulz|intro|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:22RAohcXyZZd4eY51o0mS0",
+    "spotifyName": "Intro",
+    "spotifyArtists": "Robin Schulz",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c874b3eb6242b8d632ac2305",
+    "confidence": 1
+  },
+  "sebastian ingrosso and dirty south and david guetta feat julie mcknight|how soon is now|deadline and antiyu remix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "sidepiece feat 95 south|can i ride|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:3gXGtYT41b4FXYctdxMwCI",
+    "spotifyName": "Can I Ride",
+    "spotifyArtists": "SIDEPIECE, 95 South",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851ad34f97cb6c9164d8163fc11",
+    "confidence": 1
+  },
+  "solomun and dj phono|ice cream and bonus miles|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7CNN2RUDHipcj9haoT4QTK",
+    "spotifyName": "Ice Cream and Bonus Miles",
+    "spotifyArtists": "Solomun, DJ Phono",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048515ecc9638e5169e9bb12ab3db",
+    "confidence": 1
+  },
+  "solomun and stimming|eiszauber|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5f6GyPqmSYzJhjEd2uuOZI",
+    "spotifyName": "Eiszauber",
+    "spotifyArtists": "Solomun, Stimming",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048519449045e46831155ef51f08a",
+    "confidence": 1
+  },
+  "solomun feat atna|tuk tuk|edit": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:63mBIczqBJOxSs3y5JutUR",
+    "spotifyName": "Tuk Tuk (feat. ÄTNA)",
+    "spotifyArtists": "Solomun, Inéz, ÄTNA",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b5869974a824f8f9a770782f",
+    "confidence": 0.94
+  },
+  "solomun feat isolation berlin|kreatur der nacht|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2rXDR43icZQhnn3MbhOwnB",
+    "spotifyName": "Kreatur der Nacht (feat. Isolation Berlin)",
+    "spotifyArtists": "Solomun, Isolation Berlin",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b5869974a824f8f9a770782f",
+    "confidence": 1
+  },
+  "solomun|see you everday alone|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0wWxHuDgjUKdNMxOpBs61U",
+    "spotifyName": "See You Everyday Alone",
+    "spotifyArtists": "Solomun",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485159c0579eb5e1862bbf4c9010",
+    "confidence": 0.96
+  },
+  "solomun|story of my life|outro edit": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "solomun|yesnomaybe|": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "steve barnes and riley reinhold|another day|toro mix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7sGDNquJFoNPrHihMCYDoa",
+    "spotifyName": "Another Day - Toro Mix",
+    "spotifyArtists": "Riley Reinhold, Steve Barnes",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c4a5509c043af65582aa0260",
+    "confidence": 1
+  },
+  "stimming and h o s h|radar|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:20khGTZBCJwBKu09hkWMzy",
+    "spotifyName": "Radar",
+    "spotifyArtists": "Stimming, HOSH",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485119fd5d79d2a4757dd952372d",
+    "confidence": 0.83
+  },
+  "stimming|november morning|brandenburgisches staatsorchester version": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:17yLQMluc118mWooqj7hp0",
+    "spotifyName": "November Morning - Brandenburgisches Staatsorchester Version",
+    "spotifyArtists": "Stimming",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d0000485187791f84a97c47d7b3f025da",
+    "confidence": 1
+  },
+  "swedish house mafia feat pharrell williams|one your name|darren after edit": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "the human league|seconds|antonytoga unlimited orchestra mix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "the martinez brothers feat stevie appleton|impressions|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:0FxEt9WPc729I8X2hvk4vp",
+    "spotifyName": "Impressions",
+    "spotifyArtists": "The Martinez Brothers, Stevie Appleton",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851a4119c26a0aeee9e42e7ef09",
+    "confidence": 1
+  },
+  "the phenomenal handclap band|baby|clock opera remix": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4w86qwpQff4YifrqticZld",
+    "spotifyName": "Baby - Clock Opera Remix",
+    "spotifyArtists": "The Phenomenal Handclap Band",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851b0dc5f8ed61e9cb5eeadbadf",
+    "confidence": 1
+  },
+  "the rapture|sister saviour|dfa dub": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5RGfyV0i3VDvNOgOARbPhg",
+    "spotifyName": "Sister Saviour - DFA Dub",
+    "spotifyArtists": "The Rapture",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851e3a18f68c2280e321f447097",
+    "confidence": 1
+  },
+  "the youngsters|third knife|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:36YFcYaBVvr3yj3UJQIbgM",
+    "spotifyName": "Third Knife - Matthias Tanzmann Remix",
+    "spotifyArtists": "The Youngsters, Matthias Tanzmann",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c158b10547cef4377cc62d60",
+    "confidence": 0.86
+  },
+  "thyladomid|the way i feel|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2neNr1uaqylQNlhLYJ0hfB",
+    "spotifyName": "The Way I Feel",
+    "spotifyArtists": "Thyladomid",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851eb3c13f5b042daf14034f0b7",
+    "confidence": 1
+  },
+  "tres mortimer|side 2 side|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6YChr2GzBH1S2OSV8yqB69",
+    "spotifyName": "Side 2 Side",
+    "spotifyArtists": "Très Mortimer",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851a79edb757aae23d049246f2e",
+    "confidence": 1
+  },
+  "uner|bassboot|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:5cvYVU3rm6x1fp2v948C5k",
+    "spotifyName": "Bassboot",
+    "spotifyArtists": "UNER",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048512c9f1302c884189f170b4820",
+    "confidence": 1
+  },
+  "vinter|this is not the james brown|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:1E17lM70NcSvMdDfeAaFJP",
+    "spotifyName": "This Is Not The James Brown",
+    "spotifyArtists": "Vinter",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851f5a482f9a1de056bd1f8903c",
+    "confidence": 1
+  },
+  "vittoria feet|return|carl craig remix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "volkoder|all night long|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:6jTilt2nbqiHwm2gOhS46a",
+    "spotifyName": "All Night Long",
+    "spotifyArtists": "Volkoder",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048510b9a2aafc0bf701d89a5390a",
+    "confidence": 1
+  },
+  "volkoder|everybody|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:4bAI2YA5f6s0Byxxkwgvt7",
+    "spotifyName": "Everybody",
+    "spotifyArtists": "Volkoder",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d00004851c95c0523098cacc279956b00",
+    "confidence": 1
+  },
+  "wemart and lovra|elevate|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:7GeKndOEeX24tSniNNJDOb",
+    "spotifyName": "Elevate - Radio-Edit",
+    "spotifyArtists": "WeMart, LOVRA",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048515e3f53fd22a85f8cec2a543d",
+    "confidence": 0.94
+  },
+  "will i am and britney spears|scream and shout|gaddi edit": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  },
+  "yookie|come as you are|": {
+    "status": "matched",
+    "spotifyUri": "spotify:track:2Vtu6kE8wlqWpZKQsg9cLW",
+    "spotifyName": "COME AS YOU ARE",
+    "spotifyArtists": "YOOKiE",
+    "albumArtUrl": "https://i.scdn.co/image/ab67616d000048516d12b229334ba21a22678836",
+    "confidence": 1
+  },
+  "zepherin saint|canima|afrotech remix": {
+    "status": "not_found",
+    "spotifyUri": null,
+    "spotifyName": null,
+    "spotifyArtists": null,
+    "albumArtUrl": null,
+    "confidence": null
+  }
+}
