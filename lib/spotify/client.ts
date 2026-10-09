@@ -107,15 +107,24 @@ export async function saveUserTokens(
     });
 }
 
+/** Tokens written under a different AUTH_SECRET can't be read; ask the user to sign in again. */
+function decryptOrReauth(enc: string): string {
+  try {
+    return decrypt(enc);
+  } catch {
+    throw new SpotifyError(401, "Stored Spotify tokens are unreadable; sign in again");
+  }
+}
+
 export async function getUserToken(spotifyUserId: string): Promise<string> {
   const [row] = await db()
     .select()
     .from(schema.spotifyAccounts)
     .where(eq(schema.spotifyAccounts.spotifyUserId, spotifyUserId));
   if (!row) throw new SpotifyError(401, "No Spotify tokens; sign in again");
-  if (row.expiresAt.getTime() > Date.now() + 60_000) return decrypt(row.accessTokenEnc);
+  if (row.expiresAt.getTime() > Date.now() + 60_000) return decryptOrReauth(row.accessTokenEnc);
 
-  const refreshToken = decrypt(row.refreshTokenEnc);
+  const refreshToken = decryptOrReauth(row.refreshTokenEnc);
   const t = await tokenRequest({ grant_type: "refresh_token", refresh_token: refreshToken });
   await saveUserTokens(spotifyUserId, {
     accessToken: t.access_token,

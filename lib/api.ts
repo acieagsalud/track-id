@@ -46,8 +46,17 @@ export function handle(fn: () => Promise<unknown>) {
         return NextResponse.json({ error: err.message }, { status: err.status });
       if (err instanceof SpotifyError) {
         console.error(err);
-        const status = err.status === 401 ? 401 : err.status === 429 ? 429 : 502;
-        return NextResponse.json({ error: "Spotify request failed" }, { status });
+        if (err.status === 401)
+          return NextResponse.json(
+            { error: "Your Spotify session expired. Sign in again." },
+            { status: 401 },
+          );
+        if (err.status === 429)
+          return NextResponse.json(
+            { error: "Spotify is rate limiting requests. Try again in a minute." },
+            { status: 429 },
+          );
+        return NextResponse.json({ error: "Spotify request failed" }, { status: 502 });
       }
       console.error(err);
       return NextResponse.json({ error: "Internal error" }, { status: 500 });
